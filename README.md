@@ -1,39 +1,29 @@
-
+# Robotics Modeling and Control Projects
 Graduate-level robotics projects in modeling, control, and trajectory planning using MATLAB.
 
-robotics-modeling-and-control-projects/
-│
-├── Project_1_2D_3D_Inverse_Kinematics/
-│   ├── Eshun_Lordina_Project1_2D.m
-│   ├── Eshun_Lordina_Project1_3D.m
-│   └── README.md
-│
-├── Project_2_6DOF_Inverse_Kinematics_DH/
-│   ├── DH.m
-│   ├── forward_kinematic.m
-│   ├── main_inverse_kinematics.m
-│   ├── robot_plot.m
-│   └── README.md
-│
-├── Project_3_2DOF_Planar_Dynamics/
-│   ├── main.m
-│   ├── two_link_dynamic.m
-│   ├── two_link_forward_kinematics.m
-│   └── README.md
-│
-├── Project_4_2DOF_Control_Figure8/
-│   ├── main.m
-│   ├── generateInfinityTrajectory.m
-│   ├── joint_PD_control.m
-│   ├── cartesian_PD_control.m
-│   ├── Planar2FK.m
-│   ├── Planar2IK.m
-│   ├── planar2Jacobian.m
-│   ├── planar2dJacobian.m
-│   ├── planar2_MCG.m
-│   ├── planar2dynamics.m
-│   └── README.md
-│
-└── README.md
+
+This repository contains four MATLAB-based robotics projects covering kinematics, dynamics, and control of robotic manipulators. The projects progress from inverse kinematics modeling to full dynamic simulation and trajectory tracking control.
+
+## Project Overview
+
+### Project 1: 2D and 3D Inverse Kinematics
+Implements inverse kinematics solutions for both 2D and 3D robotic manipulators, focusing on position analysis and joint configuration determination.
+
+### Project 2: 6-DOF Inverse Kinematics Using DH Parameters
+Models a 6-degree-of-freedom robotic manipulator using standard Denavit–Hartenberg parameters. Forward kinematics are computed and inverse kinematics are solved numerically using optimization techniques.
+
+### Project 3: 2-DOF Planar Manipulator Dynamics
+Derives and simulates the forward dynamics of a 2-link planar manipulator using Euler–Lagrange formulation. The project includes numerical simulation and animation of robot motion.
+
+### Project 4: 2-DOF Planar Manipulator Control (Figure-8 Tracking)
+Designs and compares joint-space and Cartesian-space PD controllers to track a figure-8 trajectory. Includes full dynamic modeling, Jacobian-based control, and trajectory generation.
+
+## Tools and Concepts
+- MATLAB
+- Forward and inverse kinematics
+- Denavit–Hartenberg modeling
+- Robot dynamics (M, C, G formulation)
+- Joint-space and Cartesian-space control
+- Trajectory generation and track
 
 
